@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C26B0DEDF600C50E1D57468 /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13ECFE29EEC8B5C5BE5A5CA /* Pods_InstaCloneFirebase.framework */; };
+		6C011B75245DD335002A0A48 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C011B74245DD335002A0A48 /* FeedViewController.swift */; };
+		6C011B77245DD363002A0A48 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C011B76245DD363002A0A48 /* UploadViewController.swift */; };
+		6C011B79245DD376002A0A48 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C011B78245DD376002A0A48 /* SettingViewController.swift */; };
+		6C257E75246D7E69002A7049 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C257E74246D7E69002A7049 /* FeedCell.swift */; };
 		6C2A50472458821A0030A723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A50462458821A0030A723 /* AppDelegate.swift */; };
 		6C2A50492458821A0030A723 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A50482458821A0030A723 /* SceneDelegate.swift */; };
 		6C2A504B2458821A0030A723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A504A2458821A0030A723 /* ViewController.swift */; };
 		6C2A504E2458821A0030A723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A504C2458821A0030A723 /* Main.storyboard */; };
 		6C2A50502458821B0030A723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A504F2458821B0030A723 /* Assets.xcassets */; };
 		6C2A50532458821B0030A723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A50512458821B0030A723 /* LaunchScreen.storyboard */; };
+		6C2A505B245984E90030A723 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A505A245984E90030A723 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C011B74245DD335002A0A48 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		6C011B76245DD363002A0A48 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		6C011B78245DD376002A0A48 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6C257E74246D7E69002A7049 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		6C2A50432458821A0030A723 /* InstaCloneFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCloneFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2A50462458821A0030A723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C2A50482458821A0030A723 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		6C2A504F2458821B0030A723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C2A50522458821B0030A723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2A50542458821B0030A723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C2A505A245984E90030A723 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D13ECFE29EEC8B5C5BE5A5CA /* Pods_InstaCloneFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCloneFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B094A651309006D92DDDFA /* Pods-InstaCloneFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.debug.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EA635DA76F6F6B5AF774E6 /* Pods-InstaCloneFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C26B0DEDF600C50E1D57468 /* Pods_InstaCloneFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B10B3C6975730CE6CF1EA45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D13ECFE29EEC8B5C5BE5A5CA /* Pods_InstaCloneFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C2A503A2458821A0030A723 = {
 			isa = PBXGroup;
 			children = (
 				6C2A50452458821A0030A723 /* InstaCloneFirebase */,
 				6C2A50442458821A0030A723 /* Products */,
+				9941594F4DB86AE788940DE0 /* Pods */,
+				5B10B3C6975730CE6CF1EA45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +84,26 @@
 				6C2A50462458821A0030A723 /* AppDelegate.swift */,
 				6C2A50482458821A0030A723 /* SceneDelegate.swift */,
 				6C2A504A2458821A0030A723 /* ViewController.swift */,
+				6C011B78245DD376002A0A48 /* SettingViewController.swift */,
+				6C011B74245DD335002A0A48 /* FeedViewController.swift */,
+				6C257E74246D7E69002A7049 /* FeedCell.swift */,
+				6C011B76245DD363002A0A48 /* UploadViewController.swift */,
 				6C2A504C2458821A0030A723 /* Main.storyboard */,
 				6C2A504F2458821B0030A723 /* Assets.xcassets */,
 				6C2A50512458821B0030A723 /* LaunchScreen.storyboard */,
 				6C2A50542458821B0030A723 /* Info.plist */,
+				6C2A505A245984E90030A723 /* GoogleService-Info.plist */,
 			);
 			path = InstaCloneFirebase;
+			sourceTree = "<group>";
+		};
+		9941594F4DB86AE788940DE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B094A651309006D92DDDFA /* Pods-InstaCloneFirebase.debug.xcconfig */,
+				D5EA635DA76F6F6B5AF774E6 /* Pods-InstaCloneFirebase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C2A50572458821B0030A723 /* Build configuration list for PBXNativeTarget "InstaCloneFirebase" */;
 			buildPhases = (
+				2D71CC50B43F60B36AB0C766 /* [CP] Check Pods Manifest.lock */,
 				6C2A503F2458821A0030A723 /* Sources */,
 				6C2A50402458821A0030A723 /* Frameworks */,
 				6C2A50412458821A0030A723 /* Resources */,
+				62F8A4784167973B0ACF9D15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C2A50532458821B0030A723 /* LaunchScreen.storyboard in Resources */,
+				6C2A505B245984E90030A723 /* GoogleService-Info.plist in Resources */,
 				6C2A50502458821B0030A723 /* Assets.xcassets in Resources */,
 				6C2A504E2458821A0030A723 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D71CC50B43F60B36AB0C766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCloneFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F8A4784167973B0ACF9D15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C2A503F2458821A0030A723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C257E75246D7E69002A7049 /* FeedCell.swift in Sources */,
 				6C2A504B2458821A0030A723 /* ViewController.swift in Sources */,
+				6C011B77245DD363002A0A48 /* UploadViewController.swift in Sources */,
 				6C2A50472458821A0030A723 /* AppDelegate.swift in Sources */,
+				6C011B75245DD335002A0A48 /* FeedViewController.swift in Sources */,
 				6C2A50492458821A0030A723 /* SceneDelegate.swift in Sources */,
+				6C011B79245DD376002A0A48 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		6C2A50582458821B0030A723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B094A651309006D92DDDFA /* Pods-InstaCloneFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +389,7 @@
 		};
 		6C2A50592458821B0030A723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EA635DA76F6F6B5AF774E6 /* Pods-InstaCloneFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
